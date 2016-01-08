@@ -1,0 +1,35 @@
+
+## This is dotfiles ##
+
+The following is the memo for commiting repos.
+
+#
+#  How to commit and push
+#
+  mkdir _dir                                              #
+  cd _dir                                                 #
+  git init                                                #
+  touch README                                            #
+  git add README .                                        #
+  git commit -m 'Anything'                                # commit with message
+  git remote add origin git@github.com/username/_dir.git  # 
+  git push origin master                                  # type uname & passwd
+#
+#  How to recommit
+#
+  git add README .
+  git commit -m 'Anything'
+  git push origin master
+#
+#  How to install
+#
+  # Direct
+  curl https://https://github.com/username/dotfiles.git | bash
+  cd dotfiles
+  ./dotfilesLinks.sh
+  # git clone
+  git clone https://github.com/username/dotfiles
+  cd dotfiles
+  ./dotfilesLinks.sh
+
+
