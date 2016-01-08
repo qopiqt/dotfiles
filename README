@@ -14,6 +14,7 @@ The following is the memo for commiting repos.
   git commit -m 'Anything'                                # commit with message
   git remote add origin git@github.com/username/_dir.git  # 
   git push origin master                                  # type uname & passwd
+  git push -f origin master #(forced push)
 #
 #  How to recommit
 #
